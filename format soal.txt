@@ -1,0 +1,43 @@
+MEDIA: video 001.mp4
+
+1. Dimana Tata berdiri?
+A. Depan kelas
+B. Lapangan
+C. Sungai
+JAWABAN: A
+
+2. Siapa nama guru Tata?
+A. Bu Rina
+B. Bu Siti
+C. Bu Ani
+JAWABAN: B
+
+3. Apa warna tas Tata?
+A. Merah
+B. Biru
+C. Hijau
+JAWABAN: C
+
+MEDIA: image 001.jpg
+
+4. Apa warna tas Tata?
+A. Merah
+B. Biru
+C. Hijau
+JAWABAN: B
+
+MEDIA: audio 001.mp3
+
+5. Suara apakah ini?
+A. Ayam
+B. Bebek
+C. Kucing
+JAWABAN: A
+
+MEDIA: text
+
+6. Warna daun adalah?
+A. Biru
+B. Hijau
+C. Merah
+JAWABAN: B

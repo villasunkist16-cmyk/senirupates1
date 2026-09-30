@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerdas Cermat Bersama Apih Bobby</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap"
+rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="game">
+
+        <!-- OPENING -->
+        <div id="opening-screen">
+
+            <img
+                src="aset/icon/mulai.png"
+                id="start-btn"
+                alt="MULAI">
+        </div>
+
+        <!-- QUIZ -->
+         <!-- VIDEO SCREEN -->
+<div id="video-screen" class="hidden">
+
+    <div id="video-transition">
+        <img
+        id="transition-image"
+        src="">
+        </div>
+
+    </div>
+
+    <video
+        id="question-video"
+        playsinline
+        preload="auto">
+    </video>
+
+</div>
+
+ <!-- AUDIO SCREEN -->
+<div id="audio-screen" class="hidden">
+
+    <div id="audio-transition">
+
+        <img
+            id="speakerIcon"
+            src="aset/icon/nada.png">
+
+        <div id="audio-title">
+
+            Dengarkan suara ini
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="quiz-screen" class="hidden">
+
+    <div id="top-bar">
+
+    <div class="top-box">
+
+        <img
+            src="aset/icon/box-nomor-soal.png"
+            class="top-box-bg">
+
+        <span id="question-counter">
+            1/50
+        </span>
+
+    </div>
+
+    <div class="top-box">
+
+        <img
+            src="aset/icon/box-skor.png"
+            class="top-box-bg">
+
+        <span id="score-box">
+            0
+        </span>
+
+    </div>
+
+</div>
+
+
+            <!-- BOX SOAL -->
+    <div id="question-box">
+
+    <img
+         id="question-box-bg"
+        src="aset/icon/question-box-image.png">
+
+    <img
+        id="question-image"
+        class="hidden">
+
+    <div id="question-text"></div>
+
+    </div>
+    
+    <div id="answers"></div>
+
+
+
+
+
+            <!-- TOMBOL BAWAH -->
+            <img
+                src="aset/icon/repeat-btn.png"
+                id="repeat-btn">
+
+            <img
+                src="aset/icon/next-btn.png"
+                id="quiz-next-btn"
+                class="hidden">
+
+        </div>
+
+    </div>
+    
+    <script src="data/questions.js"></script>
+
+    <script src="js/config.js"></script>
+    <script src="js/gameState.js"></script>
+    <script src="js/audioManager.js"></script>
+    <script src="js/uiManager.js"></script>
+
+    <script src="js/playScene.js"></script>
+    <script src="js/playAudio.js"></script>
+
+    <script src="js/questionManager.js"></script>
+
+    <script src="js/startGame.js"></script>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
